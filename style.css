@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --black1: #0f0f0f;
+    --black2: #202020;
+    --blue1: #0e64db;
+}
+
+body {
+    background-color: var(--black1);
+}
+
+header {
+    text-align: center;
+    width: 80vw;
+    max-width: 640px;
+    margin: 5rem auto;
+    color: white;
+}
+
+small {
+    color: white;
+}
+
+main {
+    margin: 2rem auto;
+    max-width: 640px;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 50%;
+}
+
+.nomecampo {
+    width: 5rem;
+    text-align: end;
+}
+
+#antes,
+#hoje,
+#investido {
+    width: 75%;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    background-color: var(--black2);
+    border-radius: .2rem;
+    color: #0e64db;
+}
+
+button {
+    background-color: #0e64db;
+    border: none;
+    border-radius: .2rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    color: white;
+    transition: .1s;
+}
+
+button:hover {
+    transition: .1s;
+    transform: scale(1.01);
+}
+
+#simulacao {
+    background-color: var(--black2);
+    padding: 3rem;
+    border-radius: .4rem;
+    margin: 2rem auto;
+    max-width: 640px;
+    margin: 5rem auto;
+    text-align: center;
+    color: white;
+}
+
+span {
+    color: var(--blue1);
+}
+
+footer {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    padding: 1.4rem;
+    border-top: solid .01rem rgb(255, 255, 255, .20);
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: var(--blue1);
+}
